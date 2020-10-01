@@ -1,0 +1,33 @@
+Phân loại thẻ HTML
+. None: khối này không hiển thị nội dung bên trong : <html>, <head>, <title>, <meta>, <link>, <script>, <style>
+. Block level: khối này hiển thị nội dung bên trong và chiều ngang tràn hết trình duyệt: <body>, <h1>, <div>, <p>, <ul>, <form>, <table>,...
+. Inline: Khối này hiển thị nội dung bên trong và chiều ngang tùy thuộc độ dài của các đối tượng bên trong khối, và nó sẽ nằm trên một dòng: <sapn>, <a>, <img>, <b>, <i>, <u>, ....
+
+- Cách chuyển đổi từ kiểu tag block sang kiểu tag Inline
+* sử dụng css:
+    1. float: left
+    2. display: Inline
+
+- Cách chuyển đổi từ kiểu tag block sang kiểu tag Inline
+* sử dụng css:
+    1. display: block
+
+Cấu trúc cơ bản của thẻ HTML
+ 3 thành phần cơ bản của thẻ HTML
+    - Selector: tên của thẻ HTML
+    - Property & value: thuộc tính và giá trị của thuộc tính: id = "", class = "", style = "", title = "", ....
+    - content: nội dung trong thẻ
+
+Định dạng cho thẻ HTML: có 5 cách để định dạng cho thẻ HTML
+ style, id, class, selector, *
+ chú ý: trong một tập tin css, class nào nằm dưới sẽ có độ ưu tiên cao hơn class nằm phía trên
+
+Phân nhóm định dạng trong css
+1. Type group: định dạng cho văn bản
+    font: font-style font-variant font-weight font-size/line-height font-family;
+2. Back ground group : định dạng hình nền cho một đối tượng nào đó
+3. Block group : định dạng cho văn bản
+4. Border group : định dạng đường viền cho một đối tượng nào đó
+5. Box group : định dạng kích thước, vị trí cho khối
+6. List group : định dạng cho các danh sách
+7. Position group : định tọa độ của một phần tử HMTL nào đó
