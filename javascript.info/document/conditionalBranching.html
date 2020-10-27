@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional branching: if, '?'</title>
+</head>
+<body>
+    <strong>Boolean conversion</strong>
+    <ul>
+        <li>A number <b>0</b>, an empty string <b>"", null, undefined, NAN</b> all become <b>false</b>. They are called "falsy" values</li>
+        <li>Other values become true. They are called "Truthy"</li>
+    </ul>
+
+    <p>Resource : <a href="https://javascript.info/ifelse#several-conditions-else-if">https://javascript.info/ifelse#several-conditions-else-if</a></p>
+
+    <!-- Task-->
+    <script>
+        // Task 1
+        if("0"){
+            //alert("Hello");
+        }
+
+        // task 2
+
+        let question = `What is the " officical " name of JavaScript `;
+
+        let nameOfJs = prompt(question, "Write your answer");
+
+        if(nameOfJs == "ECMAScript"){
+            console.log("Right!");
+        }else{
+            console.log(`Didn't know? ECMAScript`);
+        }
+
+        //Task 3
+
+        let txtnumber = prompt("Please input a number", "");
+            if (txtnumber > 0) {
+                alert(1);
+            }
+
+            else if (txtnumber < 0) {
+                alert(-1);
+            }
+            else {
+                alert(0);
+            }
+
+    </script>
+
+    
+</body>
+</html>
